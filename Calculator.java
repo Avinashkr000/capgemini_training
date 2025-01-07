@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-// Calculator class to perform operations
 class Calculator {
     
-    // Method for addition
+   
     public double add(double a, double b) {
         return a + b;
     }
+   
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -61,6 +61,6 @@ public class Main {
             }
         }
         
-        scanner.close(); // Close the scanner
+        scanner.close();
     }
 }
